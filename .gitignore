@@ -9,3 +9,8 @@
 *.tfstate.*
 
 # own secret vars store.
+*authorized_key.json
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
