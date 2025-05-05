@@ -26,9 +26,9 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
 
 ### Решение 1
-![](./img/12-02-01-01.png)
-![](./img/12-02-01-02.png)
-![](./img/12-02-01-03.png)
+![](./img/01-01.png)
+![](./img/01-02.png)
+![](./img/01-03.png)
 
 ```sql
 CREATE USER 'sys_temp'@'%' IDENTIFIED BY 'password';
