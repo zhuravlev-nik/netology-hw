@@ -15,7 +15,7 @@
 
 ### Решение 1
 
-![Zabbix server GUI](./img/9-02-01-01.png)
+![Zabbix server GUI](./img/01-01.png)
 
 ```bash
 sudo apt update
@@ -59,9 +59,9 @@ systemctl enable zabbix-server nginx php8.2-fpm
 
 ### Решение 2
 
-![Zabbix server hosts](./img/9-02-02-01.png)
-![Zabbix agent logs](./img/9-02-02-02.png)
-![Zabbix monitoring latest data](./img/9-02-02-03.png)
+![Zabbix server hosts](./img/02-01.png)
+![Zabbix agent logs](./img/02-02.png)
+![Zabbix monitoring latest data](./img/02-03.png)
 
 ```bash
 wget https://repo.zabbix.com/zabbix/7.0/debian/pool/main/z/zabbix-release/zabbix-release_7.0-2+debian12_all.deb
@@ -82,5 +82,5 @@ sudo systemctl enable zabbix-agent
 1. Приложите в файл README.md скриншот раздела Latest Data, где видно свободное место на диске C:
 
 ### Решение 3*
-![Zabbix server GUI](./img/9-02-03-01.png)
+![Zabbix server GUI](./img/03-01.png)
 --- 
