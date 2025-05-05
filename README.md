@@ -11,9 +11,9 @@
 
 ### Решение 1
 
-![Runner](./img/8-06-01-01.png)
-![Runner](./img/8-06-01-02.png)
-![Runner](./img/8-06-01-03.png)
+![Runner](./img/01-01.png)
+![Runner](./img/01-02.png)
+![Runner](./img/01-03.png)
 
 ---
 
@@ -59,8 +59,8 @@ release:
   script:
     - docker push $IMAGE_NAME:$CSS
 ```
-![Pipeline](./img/8-06-02-01.png)
-![Registry](./img/8-06-02-02.png)
+![Pipeline](./img/02-01.png)
+![Registry](./img/02-02.png)
 ---
 
 ### Задание 3*
