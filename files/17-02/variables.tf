@@ -45,11 +45,6 @@ variable "zone_b_cidr" {
   description = "https://cloud.yandex.ru/docs/vpc/operations/subnet-create"
 }
 
-variable "vms_ssh_root_key" {
-  type        = string
-  description = "ssh-keygen -t ed25519"
-}
-
 variable "env" {
   type    = string
   default = "develop"
@@ -70,7 +65,7 @@ variable "vms_resources" {
 
 variable "metadata" {
   type = object({
-    serial_port_enable = number
-    ssh_keys           = string
+    serial-port-enable = number
+    ssh-keys           = string
   })
 }

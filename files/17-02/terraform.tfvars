@@ -14,6 +14,6 @@ vms_resources = {
 }
 
 metadata = {
-  serial-port-enable = 1
+  serial-port-enable = 1,
   ssh-keys           = "ubuntu:***"
 }
