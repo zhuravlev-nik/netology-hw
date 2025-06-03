@@ -25,3 +25,17 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
+
+variable "ssh_key_path" {
+  type    = string
+  default = "~/.ssh/id_rsa.pub"
+}
+
+variable "each_vm" {
+  type = list(object({
+    vm_name     = string
+    cpu         = number
+    ram         = number
+    disk_volume = number
+  }))
+}

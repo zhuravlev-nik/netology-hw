@@ -8,9 +8,3 @@ resource "yandex_vpc_subnet" "develop" {
   v4_cidr_blocks = var.default_cidr
 }
 
-output "test" {
-  value = {
-    all     = [for i in range(1, 100) : "rc${i}"],
-    exclude = [for i in range(1, 100) : "rc${i}" if !contains(["0", "7", "8", "9"], substr(tostring(i), length(tostring(i)) - 1, 1)) || i == 19]
-  }
-}
